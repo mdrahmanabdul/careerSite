@@ -1,0 +1,48 @@
+.heading-tag
+ {
+  position: relative;
+  display: inline-block;
+  font-size: 2em;
+  font-weight: 800;
+  color: royalblue;
+  overflow: hidden;
+}
+.heading-tag
+{
+  /* Same as before */
+  background: linear-gradient(to right, midnightblue, midnightblue 50%, royalblue 50%);
+}
+.heading-tag
+{
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 200% 100%;
+  background-position: 100%;
+}
+
+.heading-tag{
+  /* Same as before */
+  transition: background-position 800ms ease;
+}
+.heading-tag:hover {
+  background-position: 0 100%;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.intro-passage
+{
+  padding-left: 20px;
+  padding-right: 25px;
+  padding-bottom: 40px;
+  font-size: 15px;
+}
+.image-class
+{
+  height: 225px;
+  width: 250px;
+}
